@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-battle-dark text-battle-text;
+}
+
+.battle-card {
+  @apply bg-battle-light rounded-lg shadow-lg p-4 border-l-4;
+}
+
+.battle-button {
+  @apply px-4 py-2 bg-battle-accent text-battle-text rounded-lg hover:bg-battle-highlight hover:text-battle-dark transition-colors duration-200;
+}
+
